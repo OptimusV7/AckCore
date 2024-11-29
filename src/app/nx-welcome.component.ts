@@ -433,7 +433,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there,Developer</span>
-            Welcome Ackberry 👋
+            Welcome to Ackberry 👋
           </h1>
         </div>
         <!--  HERO  -->
