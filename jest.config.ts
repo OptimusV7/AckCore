@@ -4,6 +4,11 @@ export default {
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory: './coverage/Ackberry',
   testEnvironment: 'jsdom',
+  testEnvironmentOptions: {
+    resources: 'usable', // Allows resources like images, scripts
+    errorOnUnknownElements: true, 
+    errorOnUnknownProperties: true,
+  },
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
